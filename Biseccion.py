@@ -29,4 +29,4 @@ if __name__ == '__main__':
 	b = 1 # intervalo B
 	tol = 0.03 
 	ni = 50 # Numero de iteracciones
-	solucion = biseccion(f, 0, 1, 0.03, ni) 
+	biseccion(f, 0, 1, 0.03, ni) 
