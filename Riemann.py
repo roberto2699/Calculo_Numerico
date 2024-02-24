@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     riemann = suma_riemann(f, a, b, n)
 
-    print("\t.:Metodo del Riemann:.")
+    print("\t.:Metodo de Riemann:.")
     print("-------------------------------------")
     print("Suma de Riemann en funcion f(x) para",a," y ",b, "en ", n, " intentos: ",riemann)
     print("-------------------------------------")
