@@ -52,7 +52,7 @@ class test_integracion_numerica_trapecio(unittest.TestCase):
         a = -1      # inicio del intervalo
         b = 1     # fin del intervalo
         n = 5   # numero de participaciones
-        self.assertEqual(Trapecio.trapecio(a, b, n),1.8377382733191294)
+        self.assertEqual(Trapecio.trapecio(f, a, b, n),1.8377382733191294)
 
        
  
