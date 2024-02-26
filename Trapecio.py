@@ -7,7 +7,7 @@ def f(x):
     return sqrt(x+1)
 
 # Metodo de trapecio
-def trapecio(a, b, n):
+def trapecio(f, a, b, n):
     h = (b - a) / n
     suma = 0.5 * (f(a) + f(b))
     for i in range(1, n):
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     b = 1     # fin del intervalo
     n = 5   # numero de participaciones
 
-    trapecio = trapecio(a, b, n)
+    trapecio = trapecio(f, a, b, n)
 
     print("\t.:Integracion Numerica:.")
     print("-------------------------------------")
